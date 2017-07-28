@@ -12,6 +12,8 @@ It does the following.
 
 * Runs SSH hardening.
 
+I reccomend adding anything custom somewhere between the common and SSH role.
+
                              _
                             | \
                             | |
@@ -27,4 +29,4 @@ It does the following.
           | |\ \       || )
          (_/ (_/      ((_/
 
-eKioga
+- eKioga
