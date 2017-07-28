@@ -1,0 +1,15 @@
+---
+- hosts: staging
+  user: root
+  gather_facts: false
+  vars:
+    username: kioga
+    password: $6$9uy19BKYXvo9B$6FcllK/Mk28n34QP/5JO2QQS6zOWX.ZZEK1IjP85qh3A7p5XhIkRa582pjKmc/wlcOSitlAwHa/QKVtW3qFKa1
+    public_key: ~/.ssh/id_rsa.pub
+  roles:
+   - {
+        role: "sa-python-minimal"
+     }
+   - common
+   - user
+   - ssh
