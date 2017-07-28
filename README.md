@@ -12,7 +12,8 @@ It does the following.
 
 * Runs SSH hardening.
 
-I reccomend adding anything custom somewhere between the common and SSH role.
+I reccomend adding anything custom somewhere between the common and SSH role. 
+Be sure to edit the username and password variables before use.
 
                              _
                             | \
